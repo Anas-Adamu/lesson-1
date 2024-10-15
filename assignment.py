@@ -1,0 +1,11 @@
+# Write a program to accept four numbers from a user and display the sum,product,average and display
+num1=input("Input first number : ")
+num2=input("Input second number : ")
+num3=input("Input third number : ")
+num4=input("Input fourth number : ")
+num5=(int(num1)+int(num2)+int(num3)+int(num4))
+print("The sum is " + str(num5))
+num6=(int(num1)*int(num2)*int(num3)*int(num4))
+print("The product is " + str(num6))
+num7=(int(num5)/4)
+print("The average is "+ str(num7))
